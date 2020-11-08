@@ -1,0 +1,390 @@
+
+
+/*==============
+    Bootstrap customization for Responsive
+========================*/
+nav.navbar.navbar-expand-lg.main-manu{
+    padding: 0;
+}
+.main-manu ul.navbar-nav{
+    margin-left: auto;
+}
+@media ( max-width: 991px ) {
+    nav.navbar.navbar-expand-lg.main-manu button.navbar-toggler.collapsed{
+        border: 1px solid #ff4204;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu button.navbar-toggler.collapsed i.fa.fa-bars{
+        color: #ff4204;
+    }
+    
+    button.navbar-toggler.mixitup-control-active{
+        color: #ff4204;
+    }
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul {
+        background: transparent;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul li {
+        margin: 0 auto;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul li a {
+        padding: 11px 0;
+	}
+/*-------------bannar responsive css----------------*/
+
+	.content-box-text h1 {
+		font-size: 34px;
+	}
+	.content-box-text h1 span {
+		font-size: 34px;
+	}
+	.content-box-text p {
+		font-size: 11px;
+	}
+	.content-box-text button.btn.btn-success {
+		font-size: 10px;
+		padding: 3px 16px;
+	}
+/*-------------about responsive css-------------------*/
+	#about .about-text h2 {
+		font-size: 24px;
+	}
+	#about .about-text h2 span{
+		font-size: 24px;
+	}
+	#about .about-right h3 {
+		font-size: 20px;
+	}
+	#about .about-right p span {
+		font-size: 13px;
+		font-weight: 700;
+	}
+	#about .about-right p {
+		font-size: 11px;
+		line-height: 24px;
+		margin-top: 18px; 
+	}
+	#about .about-right button.btn.btn-success {
+		padding: 2px 9px;
+		margin-top: 12px;
+	}
+	#about .about-right button.btn.btn-success a {
+		font-size: 12px;
+		font-weight: 600;
+	}
+/*-------------video responsive css--------------------*/
+	.video-area .video-text h2 {
+		font-size: 27px;
+	}
+	.video-area .video-icon a {
+		font-size: 30px;
+		width: 66px;
+		height: 66px;
+		line-height: 63px;
+		margin-top: 24px;
+	}
+
+
+	
+
+/*-------------service responsive css--------------------*/
+	#our-service .our-service-title h2 {
+		font-size: 25px;
+	}
+	#our-service .our-service-title h2 span {
+		font-size: 25px;
+	}
+
+
+
+/*-------------skills responsive css--------------------*/
+	.skills .skills-title h2  {
+		font-size: 25px;
+	}
+	.skills .skills-title h2 span {
+		font-size: 25px;
+	}
+	.skills .skills-left h3 {
+		font-size: 20px;
+	}
+	.skills .skills-left p {
+		line-height: 26px;
+		margin-top: 12px;
+		padding-right: 22px;
+		font-size: 13px;
+	}
+	.skills .skills-right h3 {
+		font-size: 20px;
+	}
+	.skills .skills-right .all-skillsbar .skill-bar-item h5 {
+		font-size: 14px;
+	}
+/*-------------counter responsive css--------------------*/
+	.counter .counter-box p i {
+		font-size: 17px;
+		width: 46px;
+		height: 46px;
+		line-height: 44px;
+		margin-bottom: 11px;
+	}
+	.counter .counter-box .counter-number {
+		font-size: 22px;
+	}
+	.counter .counter-box .counter-name {
+		font-size: 17px;
+	}
+
+
+/*-------------portfolio responsive css--------------------*/
+	.portfolio .portfolio-title h2 {
+		font-size: 25px;
+	}
+	.portfolio .portfolio-title h2 span {
+		font-size: 25px;
+	}
+	
+
+/*-------------team responsive css--------------------*/
+	.team .team-title h2{
+		font-size: 25px;
+	}
+	.team .team-title h2 span{
+		font-size: 25px;
+}
+
+	/*-------------testmonial responsive css--------------------*/
+	.testimonial .testimonial-text img {
+		max-width: 20%;
+	}
+	.testimonial .testimonial-text h4 {
+		font-size: 15px;
+		margin: 11px 0;
+	}
+	.testimonial .testimonial-text p {
+		font-size: 11px;
+		line-height: 19px;
+	}
+
+
+/*-------------blog responsive css--------------------*/
+	.blog .blog-title h2 {
+		font-size: 25px;
+	}
+	.blog .blog-title h2 span{
+		font-size: 25px;
+	}
+
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text h4{
+		font-size: 22px;
+		text-transform: capitalize;
+		color: #666;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		margin-top: 15px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-date{
+		font-size: 12px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-date i{
+		font-size: 13px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text p{
+		font-size: 13px;
+		line-height: 28px;
+		margin: 7px 0 14px 0;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .btn{
+		padding: 4px 14px;
+		font-size: 10px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-comment{
+		font-size: 13px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-comment i{
+		font-size: 14px;
+	}
+/*-------------contact responsive css--------------------*/
+	.form .form-title h2{
+		font-size: 25px;
+	}
+	.form .form-title h2 span{
+		font-size: 25px;
+	}
+	.form button {
+		font-size: 14px;
+	}
+
+	/*-------------footer responsive css--------------------*/
+
+	.footer .footer-left-area ul li a {
+		font-size: 9px;
+		padding-top: 7px;
+	}
+	.footer .footer-right-area p {
+		font-size: 10px;
+		margin-top: 8px;
+	}
+}
+
+
+
+
+@media (max-width: 767px){
+
+	/*-------------about responsive css--------------------*/
+	#about .about-text h2 {
+		font-size: 22px;
+	}
+	#about .about-text h2 span{
+		font-size: 22px;
+	}
+	#about .about-right h3 {
+		margin-top: 50px;
+	}
+
+
+/*-------------video responsive css--------------------*/
+
+	.video-area .video-text h2 {
+		font-size: 25px;
+	}
+	.video-area .video-icon a {
+		font-size: 26px;
+		width: 58px;
+		height: 58px;
+		line-height: 54px;
+	}
+
+
+/*-------------service responsive css--------------------*/
+	#our-service .our-service-title h2 {
+		font-size: 22px;
+	}
+	#our-service .our-service-title h2 span {
+		font-size: 22px;
+	}
+/*-------------skills responsive css--------------------*/
+	.skills .skills-title h2  {
+		font-size: 22px;
+	}
+	.skills .skills-title h2 span {
+		font-size: 22px;
+	}
+	.skills .skills-left h3 {
+		font-size: 20px;
+	}
+	.skills .skills-left p {
+		line-height: 26px;
+		margin-top: 12px;
+		padding-right: 22px;
+		font-size: 13px;
+	}
+
+
+	.skills .skills-right h3 {
+		font-size: 22px;
+		margin-top: 50px;
+	}
+
+	/*-------Counter Responsive Css-----------*/
+	.counter .counter-box {
+		margin: 15px 0;
+	}
+	.counter .counter-box p i {
+		font-size: 13px;
+		width: 40px;
+		height: 40px;
+		line-height: 41px;
+		margin-bottom: 9px;
+	}
+	.counter .counter-box .counter-number {
+		font-size: 17px;
+	}
+	.counter .counter-box .counter-name {
+		font-size: 14px;
+	}
+
+/*-------------portfolio responsive css--------------------*/
+	.portfolio .portfolio-title h2 {
+		font-size: 22px;
+	}
+	.portfolio .portfolio-title h2 span {
+		font-size: 22px;
+	}
+	.portfolio .portfolio-box .portfolio-item {
+		text-align: center;
+	}
+	.portfolio .portfolio-box .portfolio-item img {
+		width: 100%;
+	}
+
+
+/*-------------team responsive css--------------------*/
+	.team .team-title h2{
+		font-size: 22px;
+	}
+	.team .team-title h2 span{
+		font-size: 22px;
+	}
+
+
+/*-------------blog responsive css--------------------*/
+	.blog .blog-title h2 {
+		font-size: 22px;
+	}
+	.blog .blog-title h2 span{
+		font-size: 22px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-date{
+		font-size: 13px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-date i{
+		font-size: 14px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text p{
+		font-size: 13px;
+		line-height: 30px;
+		margin: 7px 0 10px 0;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .btn{
+		padding: 4px 16px;
+		font-size: 12px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-comment{
+		font-size: 14px;
+	}
+	.blog .blog-content-box .blog-content-single-box .blog-content-box-text .blog-comment i{
+		font-size: 15px;
+	}
+
+
+/*-------------contact responsive css--------------------*/
+	.form .form-title h2{
+		font-size: 22px;
+	}
+	.form .form-title h2 span{
+		font-size: 22px;
+	}
+	.form button {
+		font-size: 11px;
+	}
+}
+
+
+
+@media (max-width: 576px){
+/*-------------footer responsive css--------------------*/
+	.footer .footer-left-area{
+		text-align: center;
+	}
+	.footer .footer-left-area ul li {
+		display: inline;
+		float: none;
+
+	}
+	.footer .mobile-responsive {
+		text-align: center !important;
+	}
+}
